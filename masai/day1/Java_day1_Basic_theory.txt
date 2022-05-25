@@ -1,0 +1,67 @@
+Ans 1-: Difference between JRE, JDK and JVM are as follows-
+JDK -: Java development Kit,
+JRE -: Java Runtime Environment,
+JVM -: Java Virtual Machine,
+ 
+JDK is superior, means it consits of all
+the components JVM + JRE,  JDK software is used for developing and executing Java applications.
+JDK = (JRE + Development tools like java compiler, debugger, etc.)
+where as , 
+JRE is platform which comprises of Java Virtual Machine and Predefined Library classes
+
+
+Ans 2 -: Difference between JSE, JEE and JME are as follows -
+JSE -: Java Standard Edition 
+JEE -: Java Enterprise Edition
+JME -: Java Micro Edition
+
+JSE is the core Java platform, it is a specification, which contains the core libraries to
+develop standalone, networking, database, GUI, multithreaded types of applications.
+In addition to the core API, the Java SE platform consists of the virtual machine,
+development tools, deployment technologies and other class libraries and toolkit
+commonly used in Java application.
+where as ,
+The Java EE platform provides an API and runtime environment for developing and
+running large-scale, multi-tiered, scalable, reliable, and secure network applications.
+and
+It is a subset of Java SE, designed used for microdevices and embedded development
+like mobile phones, sensors, micro-controller, TV set-top boxes etc.
+
+
+
+Ans 3-: Java is platform-independent because it uses a virtual machine. 
+The Java programming language and all APIs are compiled into bytecodes. Bytecodes are 
+effectively platform-independent. The virtual machine takes care of the differences between 
+the bytecodes for the different platforms.
+
+
+
+Ans 4 -: Features of Java -
+
+Simple:- Java is easy to learn and its syntax is quite simple, clean and easy to
+understand.
+
+Object-Oriented:- Java is object-oriented, it supports all the OOPS
+characteristics. This makes java applications easy to develop and maintain,
+compared to structured programming language.
+
+Portable and Platform Independent:- Java source code is compiled and
+converted into bytecode. this bytecode can run on multiple platforms i.e. Write Once
+and Run Anywhere(WORA), we can compile the java code in one Operating
+System and execute it on another Operating System.
+
+Secure:- JAVA has provided an implicit component inside JVM in the form of a
+“Security Manager”  to provide implicit security against malicious code. Java has
+provided very good predefined implementations for almost all well-known network
+security. JAVA has provided a separate middleware service in JAAS [Java
+Authentication and Authorization Service], which provides web security. Auth, SSO.
+
+Robust:- Robust means strong. Java is having a very good memory management
+system in the form of a heap memory management system, it is a dynamic memory
+management system, it allocates and deallocates memory for the objects at
+runtime. JAVA is having very good Exception Handling mechanisms, because, Java
+has provided a very good predefined library to represent and handle almost all the
+frequently generated exceptions in java applications.
+
+Multithreaded:- Java supports multithreading to enhance performance. by using
+this we can execute multiple functionalities simultaneously.
