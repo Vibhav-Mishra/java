@@ -1,0 +1,21 @@
+Ques 1 :- difference between IS-A and Has-A relationship with the help of an
+example and explain about access modifiers and their accessibility?
+
+Ans -: Difference between IS-A and Has-A relationship are as follows -:
+IS-A relationship (Parent/child relationship) is inheritance. The classes which inherit are known 
+as sub classes or child classes. Where as HAS-A relationship is also known as composition, whenever
+an instance of one class is used in another class it is called as HAS-A relationship.
+
+example of IS-A relationship - 
+   Class Car (Parent) has Class Maruti(child) 
+   
+example of HAS-A relationship -
+   Class Maruti has Class Engine  (Nested)
+   
+ACCESS MODIFIERS -: Access modifiers are keywords that can be used to control the visibility of 
+fields, methods, and constructors in a class. The 4 access modifiers in Java are -
+
+Public
+Protected
+Default
+Private
