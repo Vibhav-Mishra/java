@@ -1,0 +1,8 @@
+Q3) Why is multiple inheritance not supported in Java at class level ?
+ans: 1)Inheritance means taking property from a predefined class by using extend keyword. we are using inheritance 
+     in order to save the code and for code  reusability.
+     2)Multiple class means we are inheriting properties from different classes.
+     3)Multiple inheritance is not supported by the java becz at the time of execution jvm will confused which class
+      we are using to extend , this is also called as ambiguity problem.
+      4)Thats why multiple inheritance is not supported in java through the classes.
+      5)It is supported through the interface.
