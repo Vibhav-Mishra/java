@@ -1,26 +1,48 @@
 package com.masai.day5;
 
-import java.util.Scanner;
+public class Account {
 
-public class Account{
+	private int accountId ;
+	private String accountType ;
+	private int balance ;
 	
-	public static void main(String[] args) {
-		Account a = new Account();
-		Scanner sc = new Scanner(System.in);
+	public boolean withdraw(int withdrawAmount)
+	{
+		if(withdrawAmount<=balance)
+		{
+			return true;
+		}
+		else {
+			return false;
+		}
 		
-		System.out.println("Enter account id: ");
-		a.setAccountId(sc.nextInt());
-		
-		System.out.println("Enter account type: ");
-		a.setAccountType(sc.next());
-		
-		System.out.println("Enter balance: ");
-
-		a.setBalance(sc.nextInt());
-		
-		
-		System.out.println("Enter amount to be withdrawn: ");
-		a.withdraw(sc.nextInt());
 	}
+
+	public int getAccountId() {
+		return accountId;
+	}
+
+	public void setAccountId(int accountId) {
+		this.accountId = accountId;
+	}
+
+	public String getAccountType() {
+		return accountType;
+	}
+
+	public void setAccountType(String accountType) {
+		this.accountType = accountType;
+	}
+
+	public int getBalance() {
+		return balance;
+	}
+
+	public void setBalance(int balance) {
+		this.balance = balance;
+	}
+
+	
+	
 
 }
